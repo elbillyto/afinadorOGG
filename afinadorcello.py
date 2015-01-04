@@ -3,7 +3,6 @@ __author__ = 'elbillyto'
 
 from gi.repository import Gtk, Gst, GObject
 import sys, os
-# import os
 
 #Comment the first line and uncomment the second before installing
 #or making the tarball (alternatively, use project variables)
@@ -31,7 +30,6 @@ class GUI:
     def on_button_clicked(self, button):
         label = button.get_child()
         text = label.get_label()
-        #self.play_sound(self.frequencies[text])
         self.play_sound(text)
 
     def destroy(window, self):
