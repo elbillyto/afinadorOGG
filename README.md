@@ -1,6 +1,11 @@
 # afinadorOGG
 ## Synopsis
 Python application that tunes cello strings to natural frequencies accessible via ogg files.
+Strings: 
+C2=65.41Hz
+G2=98.00Hz
+D3=146.8Hz
+A3=220.0Hz
 
 ## Code Example
 
@@ -14,7 +19,7 @@ Python application that tunes cello strings to natural frequencies accessible vi
   
 ## Motivation
 
-Tune a cello with natural string frequencies.
+Tunes a cello with natural string frequencies.
 
 ## Installation
 N/A
